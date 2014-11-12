@@ -11,6 +11,7 @@
 <remove-project name="platform/hardware/akm" />
 <remove-project name="device/lge/hammerhead-kernel" />
 <remove-project name="device/asus/flo-kernel" />
+<remove-project name="device/lge/mako-kernel" />
 <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
 <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
