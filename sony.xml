@@ -14,6 +14,8 @@
 <remove-project name="device/lge/hammerhead" />
 <remove-project name="device/asus/flo-kernel" />
 <remove-project name="device/asus/flo" />
+<remove-project name="device/asus/grouper" />
+<remove-project name="device/asus/tilapia" />
 <remove-project name="device/lge/mako-kernel" />
 <remove-project name="device/lge/mako" />
 <remove-project name="device/samsung/manta" />
