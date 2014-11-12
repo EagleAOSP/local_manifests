@@ -14,7 +14,7 @@ Put the following snippet in `.repo/local_manifests/eagle.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote  name="sony" fetch="git://github.com/sonyxperiadev/" />
-<remote name="eagle" fetch="git://github.com/EagleAOSP/" />
+<remote name="EagleAOSP" fetch="git://github.com/EagleAOSP/" />
 
 <remove-project name="platform/hardware/qcom/keymaster" />
 <remove-project name="platform/hardware/qcom/media" />

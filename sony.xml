@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote  name="sony" fetch="git://github.com/sonyxperiadev/" />
-<remote name="eagle" fetch="git://github.com/EagleAOSP/" />
+<remote name="EagleAOSP" fetch="git://github.com/EagleAOSP/" />
 
 <remove-project name="platform/hardware/qcom/keymaster" />
 <remove-project name="platform/hardware/qcom/media" />
@@ -9,9 +9,28 @@
 <remove-project name="platform/hardware/qcom/sensors" />
 <remove-project name="platform/hardware/invensense" />
 <remove-project name="platform/hardware/akm" />
+<remove-project name="device/lge/hammerhead-kernel" />
+<remove-project name="device/asus/flo-kernel" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
 
-<project path="device/sony/eagle" name="device-sony-eagle" groups="device" remote="EagleAOSP" revision="kk_mr2" />
-<project path="device/sony/yukon" name="device-sony-yukon" groups="device" remote="EagleAOSP" revision="kk_mr2" />
+<project path="device/sony/eagle" name="device-sony-eagle" groups="device" remote="EagleAOSP" revision="master" />
+<project path="device/sony/yukon" name="device-sony-yukon" groups="device" remote="EagleAOSP" revision="master" />
 <project path="vendor/sony/system/dash" name="DASH" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
 <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
