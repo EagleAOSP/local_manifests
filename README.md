@@ -30,7 +30,7 @@ Put the following snippet in `.repo/local_manifests/eagle.xml`:
 <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
 </manifest>
 ```
-
+Or use expanded manifest https://github.com/EagleAOSP/local_manifests/blob/master/sony.xml
 Download the zip file with vendor binaries from:
 http://developer.sonymobile.com/knowledge-base/open-source/android-open-source-project-for-xperia-devices/
 
